@@ -1,0 +1,19 @@
+﻿@page "/"
+@using static MapsForBlazor.techs.maps.ArcGIS //you can use advanced Esri technology
+@* @using static MapsForBlazor.techs.maps.Leaflet //Or you can choose a simple rendering *@
+
+@* The code you write will be the same*@
+
+<Map  loadParameters="@loadParameters" height="calc(100vh - 4rem)" width="calc(100vw - 2rem)"  />
+@code {
+   
+    LoadParameters loadParameters = new LoadParameters()
+    {
+        location = new Location()
+        {
+            latitude = 50.870847591747186,
+            longitude = 4.257255449993001
+        },
+        zoomLevel = 10
+    };
+}

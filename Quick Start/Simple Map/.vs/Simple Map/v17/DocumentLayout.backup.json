@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\instruitre\\nugets\\(NuGet dev)\\MapsForBlazor\\class\\Simple Map\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{137DDF0C-2536-46FD-9F80-C28631294303}|Simple Map\\Simple Map.csproj|d:\\instruitre\\nugets\\(nuget dev)\\mapsforblazor\\class\\simple map\\simple map\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{137DDF0C-2536-46FD-9F80-C28631294303}|Simple Map\\Simple Map.csproj|solutionrelative:simple map\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{137DDF0C-2536-46FD-9F80-C28631294303}|Simple Map\\Simple Map.csproj|d:\\instruitre\\nugets\\(nuget dev)\\mapsforblazor\\class\\simple map\\simple map\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{137DDF0C-2536-46FD-9F80-C28631294303}|Simple Map\\Simple Map.csproj|solutionrelative:simple map\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\instruitre\\nugets\\(NuGet dev)\\MapsForBlazor\\class\\Simple Map\\Simple Map\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Simple Map\\Pages\\Home.razor",
+              "ToolTip": "D:\\instruitre\\nugets\\(NuGet dev)\\MapsForBlazor\\class\\Simple Map\\Simple Map\\Pages\\Home.razor",
+              "RelativeToolTip": "Simple Map\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T06:27:01.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\instruitre\\nugets\\(NuGet dev)\\MapsForBlazor\\class\\Simple Map\\Simple Map\\_Imports.razor",
+              "RelativeDocumentMoniker": "Simple Map\\_Imports.razor",
+              "ToolTip": "D:\\instruitre\\nugets\\(NuGet dev)\\MapsForBlazor\\class\\Simple Map\\Simple Map\\_Imports.razor",
+              "RelativeToolTip": "Simple Map\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T06:26:49.927Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
