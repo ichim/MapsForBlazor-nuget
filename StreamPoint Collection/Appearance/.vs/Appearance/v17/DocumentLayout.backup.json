@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\40720\\source\\repos\\Appearance\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD06455-A59E-4F0D-95FF-B9B4C4DA49D8}|Appearance\\Appearance.csproj|c:\\users\\40720\\source\\repos\\appearance\\appearance\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FD06455-A59E-4F0D-95FF-B9B4C4DA49D8}|Appearance\\Appearance.csproj|solutionrelative:appearance\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD06455-A59E-4F0D-95FF-B9B4C4DA49D8}|Appearance\\Appearance.csproj|c:\\users\\40720\\source\\repos\\appearance\\appearance\\input-data\\streampointcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FD06455-A59E-4F0D-95FF-B9B4C4DA49D8}|Appearance\\Appearance.csproj|solutionrelative:appearance\\input-data\\streampointcollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FD06455-A59E-4F0D-95FF-B9B4C4DA49D8}|Appearance\\Appearance.csproj|c:\\users\\40720\\source\\repos\\appearance\\appearance\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7FD06455-A59E-4F0D-95FF-B9B4C4DA49D8}|Appearance\\Appearance.csproj|solutionrelative:appearance\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StreamPointCollection.cs",
+              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\Appearance\\Appearance\\input-data\\StreamPointCollection.cs",
+              "RelativeDocumentMoniker": "Appearance\\input-data\\StreamPointCollection.cs",
+              "ToolTip": "C:\\Users\\40720\\source\\repos\\Appearance\\Appearance\\input-data\\StreamPointCollection.cs",
+              "RelativeToolTip": "Appearance\\input-data\\StreamPointCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-04T07:03:45.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\Appearance\\Appearance\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Appearance\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\40720\\source\\repos\\Appearance\\Appearance\\Pages\\Home.razor",
+              "RelativeToolTip": "Appearance\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T07:02:24.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\Appearance\\Appearance\\_Imports.razor",
+              "RelativeDocumentMoniker": "Appearance\\_Imports.razor",
+              "ToolTip": "C:\\Users\\40720\\source\\repos\\Appearance\\Appearance\\_Imports.razor",
+              "RelativeToolTip": "Appearance\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-04T07:01:24.434Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

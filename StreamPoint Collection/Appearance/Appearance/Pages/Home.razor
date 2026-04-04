@@ -1,0 +1,36 @@
+﻿@page "/"
+@using Add_Remove.input_data
+@using MapsForBlazor.techs.core.Appearance
+@* @using static MapsForBlazor.techs.maps.ArcGIS *@
+@using static MapsForBlazor.techs.maps.Leaflet 
+<Map @ref="map" loadParameters="@loadParameters" height="calc(100vh - 2rem)" width="calc(100vw - 2rem)" OnAfterMapLoaded="@OnAfterMapLoaded" />
+@code {
+    Map? map;
+    LoadParameters loadParameters = new LoadParameters()
+    {
+        location = new Location()
+        {
+            latitude = 50.870847591747186,
+            longitude = 4.257255449993001
+        },
+        zoomLevel = 10
+    };
+
+    private async Task OnAfterMapLoaded(MapEventArgs args)
+    {
+        var map = args.sender as Map;
+        if (map is null)
+            return;
+
+        //Appearnce of StreamPoint Collection
+
+        await map.Geometric.Points.Appearance(e => e.type == "Entertainment" )
+        .SetStyle(new PointStyle() { radius = 14, color = "green", fillColor = "azure", weight = 4 })
+        .SetPopup(new Popup() { content = "<h5 style = 'background-color:gray;color:orange'>Amusement park</h5>", title = "Entertaiment" });
+
+
+        await map.Geometric.Points.Add(new StreamPointCollection().streamPointsCollection);
+    }
+
+   
+}
