@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\instruitre\\nugets\\(NuGet dev)\\MapsForBlazor\\class\\Simple Map\\Simple Map\\Simple Map.csproj": {}
+    "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Quick Start\\Simple Map\\Simple Map\\Simple Map.csproj": {}
   },
   "projects": {
-    "D:\\instruitre\\nugets\\(NuGet dev)\\MapsForBlazor\\class\\Simple Map\\Simple Map\\Simple Map.csproj": {
+    "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Quick Start\\Simple Map\\Simple Map\\Simple Map.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\instruitre\\nugets\\(NuGet dev)\\MapsForBlazor\\class\\Simple Map\\Simple Map\\Simple Map.csproj",
+        "projectUniqueName": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Quick Start\\Simple Map\\Simple Map\\Simple Map.csproj",
         "projectName": "Simple Map",
-        "projectPath": "D:\\instruitre\\nugets\\(NuGet dev)\\MapsForBlazor\\class\\Simple Map\\Simple Map\\Simple Map.csproj",
+        "projectPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Quick Start\\Simple Map\\Simple Map\\Simple Map.csproj",
         "packagesPath": "C:\\Users\\40720\\.nuget\\packages\\",
-        "outputPath": "D:\\instruitre\\nugets\\(NuGet dev)\\MapsForBlazor\\class\\Simple Map\\Simple Map\\obj\\",
+        "outputPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Quick Start\\Simple Map\\Simple Map\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

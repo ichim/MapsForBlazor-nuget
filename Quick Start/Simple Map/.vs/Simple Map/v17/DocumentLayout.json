@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\instruitre\\nugets\\(NuGet dev)\\MapsForBlazor\\class\\Simple Map\\",
+  "WorkspaceRootPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Quick Start\\Simple Map\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{137DDF0C-2536-46FD-9F80-C28631294303}|Simple Map\\Simple Map.csproj|d:\\instruitre\\nugets\\(nuget dev)\\mapsforblazor\\class\\simple map\\simple map\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{137DDF0C-2536-46FD-9F80-C28631294303}|Simple Map\\Simple Map.csproj|solutionrelative:simple map\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{137DDF0C-2536-46FD-9F80-C28631294303}|Simple Map\\Simple Map.csproj|d:\\instruitre\\nugets\\github\\mapsforblazor\\repo\\mapsforblazor-nuget\\quick start\\simple map\\simple map\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{137DDF0C-2536-46FD-9F80-C28631294303}|Simple Map\\Simple Map.csproj|solutionrelative:simple map\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{137DDF0C-2536-46FD-9F80-C28631294303}|Simple Map\\Simple Map.csproj|d:\\instruitre\\nugets\\(nuget dev)\\mapsforblazor\\class\\simple map\\simple map\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{137DDF0C-2536-46FD-9F80-C28631294303}|Simple Map\\Simple Map.csproj|solutionrelative:simple map\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{137DDF0C-2536-46FD-9F80-C28631294303}|Simple Map\\Simple Map.csproj|d:\\instruitre\\nugets\\github\\mapsforblazor\\repo\\mapsforblazor-nuget\\quick start\\simple map\\simple map\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{137DDF0C-2536-46FD-9F80-C28631294303}|Simple Map\\Simple Map.csproj|solutionrelative:simple map\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +18,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Home.razor",
-              "DocumentMoniker": "D:\\instruitre\\nugets\\(NuGet dev)\\MapsForBlazor\\class\\Simple Map\\Simple Map\\Pages\\Home.razor",
+              "DocumentMoniker": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Quick Start\\Simple Map\\Simple Map\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Simple Map\\Pages\\Home.razor",
-              "ToolTip": "D:\\instruitre\\nugets\\(NuGet dev)\\MapsForBlazor\\class\\Simple Map\\Simple Map\\Pages\\Home.razor",
+              "ToolTip": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Quick Start\\Simple Map\\Simple Map\\Pages\\Home.razor",
               "RelativeToolTip": "Simple Map\\Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -35,13 +35,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "_Imports.razor",
-              "DocumentMoniker": "D:\\instruitre\\nugets\\(NuGet dev)\\MapsForBlazor\\class\\Simple Map\\Simple Map\\_Imports.razor",
+              "DocumentMoniker": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Quick Start\\Simple Map\\Simple Map\\_Imports.razor",
               "RelativeDocumentMoniker": "Simple Map\\_Imports.razor",
-              "ToolTip": "D:\\instruitre\\nugets\\(NuGet dev)\\MapsForBlazor\\class\\Simple Map\\Simple Map\\_Imports.razor",
+              "ToolTip": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Quick Start\\Simple Map\\Simple Map\\_Imports.razor",
               "RelativeToolTip": "Simple Map\\_Imports.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-04-04T06:26:49.927Z",
               "EditorCaption": ""

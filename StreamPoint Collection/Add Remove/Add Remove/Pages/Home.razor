@@ -1,0 +1,35 @@
+﻿@page "/"
+@using Add_Remove.input_data
+@using MapsForBlazor.techs.core.Appearance
+@using static MapsForBlazor.techs.maps.ArcGIS 
+@* @using static MapsForBlazor.techs.maps.Leaflet  *@
+<button onclick="@removeAll">Clear</button>
+<Map @ref="map" loadParameters="@loadParameters" height="calc(100vh - 4rem)" width="calc(100vw - 2rem)" OnAfterMapLoaded="@OnAfterMapLoaded" />
+@code {
+    Map? map;
+    LoadParameters loadParameters = new LoadParameters()
+    {
+        location = new Location()
+        {
+            latitude = 50.870847591747186,
+            longitude = 4.257255449993001
+        },
+        zoomLevel = 10
+    };
+
+    private async Task OnAfterMapLoaded(MapEventArgs args)
+    {
+        var map = args.sender as Map;
+        if (map is null)
+            return;
+
+        await map.Geometric.Points.Add(new StreamPointCollection().streamPointsCollection);
+    }
+
+    private async Task removeAll()
+    {
+        if (map is null)
+            return;
+        await map.Geometric.Points.Remove();
+    }
+}

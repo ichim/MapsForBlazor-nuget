@@ -1,10 +1,14 @@
 ﻿@page "/"
-@using static MapsForBlazor.techs.maps.ArcGIS //you can use advanced Esri technology
-@* @using static MapsForBlazor.techs.maps.Leaflet //Or you can choose a simple rendering *@
+
+@* //you can use advanced Esri technology *@
+@* @using static MapsForBlazor.techs.maps.ArcGIS  *@
+
+@* //Or you can choose a simple rendering *@
+@using static MapsForBlazor.techs.maps.Leaflet 
 
 @* The code you write will be the same*@
 
-<Map  loadParameters="@loadParameters" height="calc(100vh - 4rem)" width="calc(100vw - 2rem)"  />
+<Map  loadParameters="@loadParameters" height="calc(100vh - 2rem)" width="calc(100vw - 2rem)"  />
 @code {
    
     LoadParameters loadParameters = new LoadParameters()
