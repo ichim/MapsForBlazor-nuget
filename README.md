@@ -1,15 +1,46 @@
-*Maps for Blazor* is a library that provides components for displaying maps in Blazor applications. It supports various map providers (Esri, Leaflet) and allows developers to easily integrate interactive maps into their Blazor projects. ==One code, one blazor component and many technologies==.
+*Maps for Blazor* is a library that provides components for displaying maps in Blazor applications. It supports various map providers (Esri, Leaflet) and allows developers to easily integrate interactive maps, `without any JavaScript settings`, into their Blazor projects. `One code, one blazor component and many technologies`.
 
 
-**==KEYWORDS==**: Minimizing Invoke callers to JavaScript, `No JavaScript specific settings`, no script references, no css links. `One code`, one component `many technologies`.
+**KEYWORDS**: Minimizing Invoke callers to JavaScript, `No JavaScript specific settings`, no script references, no css links. `One code`, one component `many technologies`.
 
 
 #  Maps for Blazor
 
 You can display the map in the blazor page using one of the provided technologies (Esri, Leaflet providers). Regardless of the technology provider (Esri, Leaflet), the code for implementing the map will be the same. 
 
+|ArcGIS |Leaflet |
+|----|----|
+|![ArcGIS](https://raw.githubusercontent.com/ichim/MapsForBlazor-nuget/main/images/quick/ArcGIS.png)|![Leaflet](https://raw.githubusercontent.com/ichim/MapsForBlazor-nuget/main/images/quick/Leaflet.png)|
+
+
 # Quick Start
 
+## Basic configuration
+
+🔵 **Add the right map and technology to your project in just 3 steps:**
+
+1. add MapsForBlazor NuGet package:
+
+Using Visual Studio _interface_:
+
+ - Tools -> NuGet Package Manager -> Manage NuGet Packages for Solution...
+ 
+ > Search for "MapsForBlazor" and add the package to the project or solution.
+
+ Or using Visual Studio _console_:
+
+ - Tools -> NuGet Package Manager -> Package Manager Console
+
+       NuGet\Install-Package MapsForBlazor
+ 
+2. add the MapsForBlazor namespace to the project, using the @using directive
+
+To do this, add the following directives to the **_Imports.razor** file
+
+    @using MapsForBlazor
+    @using static MapsForBlazor.Map
+
+3. Configuring the Blazor page (which will host the Map control):
 
 The `@using` directive allows selecting the API for generating the map:
 
@@ -21,7 +52,7 @@ Or:
 	@using static MapsForBlazor.techs.maps.Leaflet  				//Leaflet
 
 
-|🔵 The **following code is the same (identical)** regardless of the namespace chosen (whether you chose ==MapsForBlazor.techs.maps.ArcGIS== or whether you chose ==MapsForBlazor.techs.maps.Leaflet==).|
+|🔵 The **following code is the same (identical)** regardless of the namespace chosen (whether you chose `MapsForBlazor.techs.maps.ArcGIS` or whether you chose `MapsForBlazor.techs.maps.Leaflet`).|
 |----|
 
 
@@ -59,7 +90,16 @@ for Leaflet:
                 latitude = 50.870847591747186,
                 longitude = 4.257255449993001
             },
-            zoomLevel = 10
+            zoomLevel = 10,
+            mapControls = new MapControls()                                         //the controls to be displayed on the map
+            {
+                layerList = new LayerList() { position =  Position.bottomRight },   //layer list control
+                scaleBar = new ScaleBar() {                                         //scale bar control
+                    position = Position.bottomRight, 
+                    unitOfScaleBar = UnitOfScaleBar.metric 
+                },
+
+            }
         };
     }
 
@@ -123,6 +163,12 @@ To add points to the map, you can use the `Add` method of the Map component. Thi
 
 
     await  map.Geometric.Points.Remove();
+
+### Update 
+
+You can update both the attributes and the point position (coordinates):
+
+    await  map.Geometric.Points.Update(new List<StreamPoint>(){});
 
 
 ### OnClick Event
