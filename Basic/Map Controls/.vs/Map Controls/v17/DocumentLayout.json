@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\instruitre\\nugets\\(NuGet dev)\\LeafletForBlazor\\devs\\20260419\\Map Controls\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{576EE974-BD26-4EBF-BC17-16E5C8FFE97C}|Map Controls\\Map Controls.csproj|d:\\instruitre\\nugets\\(nuget dev)\\leafletforblazor\\devs\\20260419\\map controls\\map controls\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{576EE974-BD26-4EBF-BC17-16E5C8FFE97C}|Map Controls\\Map Controls.csproj|solutionrelative:map controls\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{576EE974-BD26-4EBF-BC17-16E5C8FFE97C}|Map Controls\\Map Controls.csproj|d:\\instruitre\\nugets\\(nuget dev)\\leafletforblazor\\devs\\20260419\\map controls\\map controls\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{576EE974-BD26-4EBF-BC17-16E5C8FFE97C}|Map Controls\\Map Controls.csproj|solutionrelative:map controls\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "D:\\instruitre\\nugets\\(NuGet dev)\\LeafletForBlazor\\devs\\20260419\\Map Controls\\Map Controls\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Map Controls\\Pages\\Home.razor",
+              "ToolTip": "D:\\instruitre\\nugets\\(NuGet dev)\\LeafletForBlazor\\devs\\20260419\\Map Controls\\Map Controls\\Pages\\Home.razor",
+              "RelativeToolTip": "Map Controls\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-19T16:19:02.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "D:\\instruitre\\nugets\\(NuGet dev)\\LeafletForBlazor\\devs\\20260419\\Map Controls\\Map Controls\\_Imports.razor",
+              "RelativeDocumentMoniker": "Map Controls\\_Imports.razor",
+              "ToolTip": "D:\\instruitre\\nugets\\(NuGet dev)\\LeafletForBlazor\\devs\\20260419\\Map Controls\\Map Controls\\_Imports.razor",
+              "RelativeToolTip": "Map Controls\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-19T16:18:53.822Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
