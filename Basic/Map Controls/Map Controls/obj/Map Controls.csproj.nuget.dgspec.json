@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\instruitre\\nugets\\(NuGet dev)\\LeafletForBlazor\\devs\\20260419\\Map Controls\\Map Controls\\Map Controls.csproj": {}
+    "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Basic\\Map Controls\\Map Controls\\Map Controls.csproj": {}
   },
   "projects": {
-    "D:\\instruitre\\nugets\\(NuGet dev)\\LeafletForBlazor\\devs\\20260419\\Map Controls\\Map Controls\\Map Controls.csproj": {
+    "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Basic\\Map Controls\\Map Controls\\Map Controls.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\instruitre\\nugets\\(NuGet dev)\\LeafletForBlazor\\devs\\20260419\\Map Controls\\Map Controls\\Map Controls.csproj",
+        "projectUniqueName": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Basic\\Map Controls\\Map Controls\\Map Controls.csproj",
         "projectName": "Map Controls",
-        "projectPath": "D:\\instruitre\\nugets\\(NuGet dev)\\LeafletForBlazor\\devs\\20260419\\Map Controls\\Map Controls\\Map Controls.csproj",
+        "projectPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Basic\\Map Controls\\Map Controls\\Map Controls.csproj",
         "packagesPath": "C:\\Users\\40720\\.nuget\\packages\\",
-        "outputPath": "D:\\instruitre\\nugets\\(NuGet dev)\\LeafletForBlazor\\devs\\20260419\\Map Controls\\Map Controls\\obj\\",
+        "outputPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Basic\\Map Controls\\Map Controls\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
