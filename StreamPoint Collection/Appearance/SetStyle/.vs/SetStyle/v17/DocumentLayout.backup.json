@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\40720\\source\\repos\\SetStyle\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1898A5-02C8-40F1-98CB-AA6783BDDBEF}|SetStyle\\SetStyle.csproj|c:\\users\\40720\\source\\repos\\setstyle\\setstyle\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED1898A5-02C8-40F1-98CB-AA6783BDDBEF}|SetStyle\\SetStyle.csproj|solutionrelative:setstyle\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1898A5-02C8-40F1-98CB-AA6783BDDBEF}|SetStyle\\SetStyle.csproj|c:\\users\\40720\\source\\repos\\setstyle\\setstyle\\input-data\\streampoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ED1898A5-02C8-40F1-98CB-AA6783BDDBEF}|SetStyle\\SetStyle.csproj|solutionrelative:setstyle\\input-data\\streampoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED1898A5-02C8-40F1-98CB-AA6783BDDBEF}|SetStyle\\SetStyle.csproj|c:\\users\\40720\\source\\repos\\setstyle\\setstyle\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{ED1898A5-02C8-40F1-98CB-AA6783BDDBEF}|SetStyle\\SetStyle.csproj|solutionrelative:setstyle\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\SetStyle\\SetStyle\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "SetStyle\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\40720\\source\\repos\\SetStyle\\SetStyle\\Pages\\Home.razor",
+              "RelativeToolTip": "SetStyle\\Pages\\Home.razor",
+              "ViewState": "AgIAAAEAAAAAAAAAAADwvxUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T16:42:38.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\SetStyle\\SetStyle\\_Imports.razor",
+              "RelativeDocumentMoniker": "SetStyle\\_Imports.razor",
+              "ToolTip": "C:\\Users\\40720\\source\\repos\\SetStyle\\SetStyle\\_Imports.razor",
+              "RelativeToolTip": "SetStyle\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T16:41:47.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StreamPoints.cs",
+              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\SetStyle\\SetStyle\\input-data\\StreamPoints.cs",
+              "RelativeDocumentMoniker": "SetStyle\\input-data\\StreamPoints.cs",
+              "ToolTip": "C:\\Users\\40720\\source\\repos\\SetStyle\\SetStyle\\input-data\\StreamPoints.cs",
+              "RelativeToolTip": "SetStyle\\input-data\\StreamPoints.cs",
+              "ViewState": "AgIAAO8AAAAAAAAAAAAAwAQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T16:40:18.526Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

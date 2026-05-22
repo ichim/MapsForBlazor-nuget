@@ -1,0 +1,112 @@
+﻿@page "/"
+@using Input
+@using MapsForBlazor.techs.core.Appearance
+@using static MapsForBlazor.techs.maps.Leaflet
+<button onclick="@removeAll">Clear</button>
+<button onclick="@update">Update</button>
+
+<Map @ref="map" loadParameters="@loadParameters" height="calc(100vh - 4rem)" width="calc(100vw - 2rem)" OnAfterMapLoaded="@OnAfterMapLoaded" />
+@code {
+    Map? map;
+    LoadParameters loadParameters = new LoadParameters()
+    {
+        location = new Location()
+        {
+            latitude = 50.85551239553191,
+            longitude = 4.353232358220362
+        },
+        zoomLevel = 10,
+        mapControls = new MapControls()
+        {
+            layerList = new LayerList() { position = Position.topRight },
+            scaleBar = new ScaleBar()
+            {
+                position = Position.bottomRight,
+                unitOfScaleBar = UnitOfScaleBar.metric
+            },
+
+        }
+    };
+
+
+    private async Task OnAfterMapLoaded(MapEventArgs args)
+    {
+        var map = args.sender as Map;
+        List<string> trade = new List<string>()
+        {
+            "Market",
+            "Souvenirs"
+
+        };
+
+        List<string> technical = new List<string>()
+        {
+            "Industrial",
+            "Workshop"
+        };
+        if (map is null)
+            return;
+
+        map.Geometric.Points.OnClick += async (object? sender, StreamPointEventArgs args) =>
+       {
+           Console.WriteLine($"    Clicked point with count {args.points.Count()}");
+       };
+
+
+     
+
+        await map.Geometric.Points.Add(new StreamPoints().points);
+
+        await map.Geometric.Points.Appearance(e => trade.Contains(e.type))
+        .SetStyle(new DynamicPointSVG()
+        {
+            dimension = 20,
+            scaling = 100,
+            htmlContent = "<defs><radialGradient id='grad6' cx='50%' cy='50%' r='50%' fx='50%' fy='50%'><stop offset='0%' stop-color='red' /><stop offset='100%' stop-color='orange' /></radialGradient></defs><polygon  style='fill-opacity:0.42;stroke:red;stroke-width:2' points='20,20 40,30 50,10 60,30 80,20 70,40 90,50 70,60 80,80 60,70 50,90 40,70 20,80 30,60 10,50 30,40' fill='url(#grad6)'  />",
+            title = "Market",
+            visibilityZoomLevels = new VisibilityZoomLevels() { minZoomLevel = 8, maxZoomLevel = 10 }
+        });
+
+           await map.Geometric.Points.Appearance(e => technical.Contains(e.type))
+        .SetStyle(new PointStyle()
+        {
+            color = "orange",
+            fillColor = "red",
+            fillOpacity = 0.42,
+            radius = 10,
+            weight = 2,
+            opacity = 1,
+            title = "Industrial",
+            visibilityZoomLevels = new VisibilityZoomLevels() { minZoomLevel = 8, maxZoomLevel = 10 }
+        });
+
+       
+    }
+
+    private async Task removeAll()
+    {
+        if (map is null)
+            return;
+        await map.Geometric.Points.Remove();
+
+    }
+
+    private async Task update()
+    {
+        if (map is null)
+            return;
+        await map.Geometric.Points.Update(new List<StreamPoint>()
+            {
+                  new StreamPoint()
+                {
+                    coordinates = new Coordinates()
+                    {
+                        xy = new double[2] { 50.62847591747186,  4.4465449993004 }
+                    },
+                    guid = new Guid("00000000-0000-0000-0000-000000000004"),
+                     type = "Industrial",
+                     value = "Changed"
+                }
+            });
+    }
+}
