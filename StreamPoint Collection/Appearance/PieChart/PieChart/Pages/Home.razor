@@ -1,0 +1,50 @@
+﻿@page "/"
+@using input
+@using MapsForBlazor.techs.core.Appearance
+@using static MapsForBlazor.techs.maps.Leaflet
+
+
+
+<Map @ref="map" loadParameters="@loadParameters" height="calc(100vh - 2rem)" width="calc(100vw - 2rem)" OnAfterMapLoaded="@OnAfterMapLoaded" />
+@code {
+    Map? map;
+    LoadParameters loadParameters = new LoadParameters()
+    {
+        location = new Location()
+        {
+            latitude = 50.85551239553191,
+            longitude = 4.353232358220362
+        },
+        zoomLevel = 10,
+        mapControls = new MapControls()
+        {
+            layerList = new LayerList() { position = Position.topRight },
+            scaleBar = new ScaleBar()
+            {
+                position = Position.bottomRight,
+                unitOfScaleBar = UnitOfScaleBar.metric
+            },
+
+        }
+    };
+
+
+    private async Task OnAfterMapLoaded(MapEventArgs args)
+    {
+        await map.Geometric.Points.Appearance(e => e.type == "Industrial").SetStyle(new PieChart()
+        {
+            dimension = 40,
+
+            title = "Industrial",
+            visibilityZoomLevels = new VisibilityZoomLevels() { minZoomLevel = 8, maxZoomLevel = 10 },
+            expandedIndex = 0,
+            fontSize = 8,
+            paramOrValues = "${production}",
+            paramOrLabels = "${texts}",
+            paramOrColors = "${classes}"
+        }).SetLabel(new Label() { text = "Industrial Area", title = "Industrial Layer List", font = new Font() { size = 8 } });
+        await map.Geometric.Points.Add(new StreamPoints().points);
+
+    }
+
+}
