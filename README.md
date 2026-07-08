@@ -197,9 +197,9 @@ Where:
 
 ### Appearance
 
-`Appearance` is a method that allows filtering and applying properties specific to the display of points on the map. Appearance supports the SetStyle() and SetPopup() methods.
+`Appearance` is a method that allows filtering and applying properties specific to the display of points on the map. Appearance supports the SetStyle() and SetPopup() methods. [Here you can find more about Appearance().](https://github.com/ichim/MapsForBlazor-nuget/tree/main/StreamPoint%20Collection/Appearance)
 
-1. **SetStyle()**
+1. **[SetStyle()](https://github.com/ichim/MapsForBlazor-nuget/tree/main/StreamPoint%20Collection/Appearance/SetStyle)**
 
 Changing the appearance (Style) of the point on the map can be done using the following classes (SetStyle()):
 - **PointStyle** -> base class with which you can display predefined markers;
