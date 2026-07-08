@@ -18,6 +18,17 @@ The structure of a PieChart class is as follows:
 
 Where the properties paramOrValues, paramOrLabels, paramOrColors can accept arrays of values ​​(numeric and text) or can accept template literals/templates strings, but without backtick (`) characters.
 
+## Working with parameters
+
+As mentioned, the input data parameterization for Chart is based on template literals/template strings.
+In JavaScript the definition of a template literal is given by the following rules:
+1. using backtick (`) characters to delimit the string
+2. the parameter is passed using the `${parameter}` convention
+
+However, being an implementation made in C#, the first rule is excluded, and the string delimitation will be done with ":
+
+    `${parameter}` becomes "${parameter}"
+
 For example:
 
        await map.Geometric.Points.Appearance(e => e.type == "Industrial").SetStyle(new PieChart()
