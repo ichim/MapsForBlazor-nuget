@@ -8,4 +8,6 @@ The StreamPoints collection can be updated in two basic ways:
 
     await map.Geometric.Points.Add(new StreamPoints().points);
 
-Where new StreamPoints().points is a new List<StreamPoint>()
+Where:
+
+    new StreamPoints().points is a new List<StreamPoint>()
