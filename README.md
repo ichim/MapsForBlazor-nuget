@@ -4,14 +4,20 @@
 **KEYWORDS**: Minimizing Invoke callers to JavaScript, `No JavaScript specific settings`, no script references, no css links. `One code`, one component `many technologies`.
 
 
-#  Maps for Blazor
+# Keywords
 
 You can display the map in the blazor page using one of the provided technologies (Esri, Leaflet providers). Regardless of the technology provider (Esri, Leaflet), the code for implementing the map will be the same. 
 
 |ArcGIS |Leaflet |
 |----|----|
-|![ArcGIS](https://raw.githubusercontent.com/ichim/MapsForBlazor-nuget/main/images/quick/ArcGIS.png)|![Leaflet](https://raw.githubusercontent.com/ichim/MapsForBlazor-nuget/main/images/quick/Leaflet.png)|
+|![ArcGIS](https://raw.githubusercontent.com/ichim/MapsForBlazor-nuget/main/images/quick/ArcGIS-zoomLevel.gif)|![Leaflet](https://raw.githubusercontent.com/ichim/MapsForBlazor-nuget/main/images/quick/Leaflet-zoomLevel.gif)|
+|`@using static MapsForBlazor.techs.maps.ArcGIS`|`@using static MapsForBlazor.techs.maps.Leaflet`|
 
+1. No JavaScript specific configurations required, no API script configurations, no CSS references, etc.
+1. One code, one component, many technologies.
+1. Optimized code through various solutions
+   - minimizing the number of calls to JavaScript;
+   - collection searches by destructuring and structuring LINQ expressions
 
 # Quick Start
 
@@ -191,7 +197,74 @@ Where:
 
 ### Appearance
 
-`Appearance` is a method that allows filtering and applying properties specific to the display of points on the map. Appearance settings can be cascaded (one after another, on the same Appearance filter):
+`Appearance` is a method that allows filtering and applying properties specific to the display of points on the map. Appearance supports the SetStyle() and SetPopup() methods.
+
+1. **SetStyle()**
+
+Changing the appearance (Style) of the point on the map can be done using the following classes (SetStyle()):
+- **PointStyle** -> base class with which you can display predefined markers;
+
+        public class PointStyle
+        {
+            public string title { get; set; } = "without title";
+            public VisibilityZoomLevels visibilityZoomLevels { get; set; } = new VisibilityZoomLevels();
+            public int radius { get; set; } = 4;
+            public string? fillColor { get; set; }
+            public string? color { get; set; }
+            public int weight { get; set; } = 1;
+            public double opacity { get; set; } = 1;
+            public double fillOpacity { get; set; } = 1;
+        }
+
+[SetStyle](https://github.com/ichim/MapsForBlazor-nuget/tree/main/StreamPoint%20Collection/Appearance/SetStyle)
+
+- **DynamicPointSVG** -> is a class with which you can use svg elements to display the point on the map. The DynamicPointSVG class defines a set of SVG elements that are scalable with the zoom level and are only displayed in the current view.
+
+        public class DynamicPointSVG 
+        {
+            public string title { get; set; } = "without title";
+            public VisibilityZoomLevels visibilityZoomLevels { get; set; } = new VisibilityZoomLevels();
+            public string? htmlContent { get; set; }
+            public int dimension { get; set; }
+            public int scaling { get; set; } = 100;
+        }
+
+[Working with SVG](https://github.com/ichim/MapsForBlazor-nuget/tree/main/StreamPoint%20Collection/Appearance/SVG) 
+
+
+ - **PieChart** -> is a class with which you can use pie charts to display the point on the map. The PieChart class defines a set of pie chart elements that are scalable with the zoom level and are only displayed in the current view.
+       
+        public class PieChart: IChartPoint, IPieStyles
+        {
+            public string title { get; set; } = "without title";
+            public VisibilityZoomLevels visibilityZoomLevels { get; set; } = new VisibilityZoomLevels();
+            public int dimension { get; set; }
+            public int scaling { get; set; } = 100;
+            public int  fontSize { get; set; } = 6;
+            public int expandedIndex { get; set; } = -1;    //slice index to be expanded, -1 means no slice is expanded
+            public PieStyle? styles { get; set; } = null;
+            public object paramOrValues { get; set; }       //values for pie chart or parameter ${parameterValues}
+            public object paramOrLabels { get; set; }       //labels for pie chart or parameter ${parameterLabels}
+            public object paramOrColors { get; set; }       //colors for pie chart or parameter ${parameterColors}
+        }
+
+ [PieChart](https://github.com/ichim/MapsForBlazor-nuget/tree/main/StreamPoint%20Collection/Appearance/PieChart)
+ 
+❗ Limitations of DynamicPointSVG and PieChart:
+ When using `@using static MapsForBlazor.techs.maps.Leaflet` it will not be displayed in Layers List control.
+
+
+2. **SetPopup()**
+
+Another category of properties related to the appearance of the point on the map refers to the Popups associated with it (SetPopup()).
+
+        public class Popup
+        {
+            public string content { get; set; } = "without content";
+            public string title { get; set; } = "without title";
+        }
+
+Appearance settings can be cascaded (one after another, on the same Appearance filter):
 
        await map.Geometric.Points.Appearance(e => e.type == "A" || e.type == "B")
         .SetStyle(new PointStyle() { radius = 14, color = "green", fillColor = "azure", weight = 4 })
@@ -212,6 +285,25 @@ Other examples:
        await map.Geometric.Points.Appearance(e => types.Contains(e.type))
         .SetStyle(new PointStyle() { radius = 14, color = "green", fillColor = "azure", weight = 4 })
         .SetPopup(new Popup() { content = "<h4 style = 'background-color:gray;color:orange'>Text on popup<</h4>", title = "titlu"});
+
+
+1. **SetLabel()**
+
+The SetLabel() method provides the ability to add text to the map. The text will be associated with a StreamPoint
+
+
+     await map.Geometric.Points.Appearance(e => e.type == "Industrial")
+    .SetStyle(new DynamicPointSVG()
+    {
+        dimension = 20,
+        scaling = 100,
+        htmlContent = "<defs><radialGradient id='grad6' cx='50%' cy='50%' r='50%' fx='50%' fy='50%'><stop offset='0%' stop-color='red' /><stop offset='100%' stop-color='orange' /></radialGradient></defs><polygon  style='fill-opacity:0.42;stroke:red;stroke-width:2' points='20,20 40,30 50,10 60,30 80,20 70,40 90,50 70,60 80,80 60,70 50,90 40,70 20,80 30,60 10,50 30,40' fill='url(#grad6)'  />",
+        title = "Parks",
+        visibilityZoomLevels = new VisibilityZoomLevels() { minZoomLevel = 8, maxZoomLevel = 10 }
+    })
+    .SetLabel(new Label() { title = "Ind etichete", text = "Type: ${type}\n${value}", xyAnchor = new double[2] { 0, 0 }, font = new Font() { size = 12, family = "veranda", weight = "normal" } });
+
+
 
 |ᶜ⁴ˡᵘ⁷ᵘ⁵ᵘᶠˡᵉ⁷⁸ᵘⁿ|
 |----|
