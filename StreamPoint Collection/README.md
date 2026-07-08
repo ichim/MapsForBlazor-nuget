@@ -1,5 +1,7 @@
 # Working with StreamPoint collection
 
+## Add Remove StreamPoint
+
 ## Appearance
 
 Appearance() is a method of the point collection (StreamPoint), which allows you to customize the display of points on the map.
