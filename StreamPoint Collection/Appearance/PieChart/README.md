@@ -32,3 +32,40 @@ For example:
              paramOrLabels = "${texts}",
              paramOrColors = "${classes}"
          });
+
+Where:
+
+
+
+
+    public List<StreamPoint> streamPoints = new List<StreamPoint>()
+     {
+                new StreamPoint()
+                {
+                    coordinates = new Coordinates()
+                    {
+                        xy = new double[2] { 50.860847591747186,  4.227255449993002 }
+                    },
+                    guid = new Guid("00000000-0000-0000-0000-000000000001"),
+                    type = "Industrial",
+                    value = new IndustrialValues()
+                    {
+                        production = new double[4] { 400, 200, 300, 50 },
+                        texts = new string[3] { "Low", "Medium", "High" },
+                        classes = new string[4] { "white", "yellow", "red", "gray" }
+                    }
+    
+                }
+    }
+
+and the IndustrialValues class is a custom class (user-defined):
+
+In this example, the custom class is:
+
+     public class  IndustrialValues
+     {
+         public double[]? production { get; set; }
+         public string[]? texts { get; set; }
+         public string[]? classes { get; set; }
+     }
+
