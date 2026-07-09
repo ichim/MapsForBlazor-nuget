@@ -38,3 +38,17 @@ Where:
         @code {
             Map? map;
             }
+
+## Remove
+
+Remove all StreamPoint from collection.
+
+     await map.Geometric.Points.Remove();
+
+
+Where:
+
+        <Map @ref="map" />
+        @code {
+            Map? map;
+            }
