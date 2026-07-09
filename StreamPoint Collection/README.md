@@ -14,6 +14,6 @@ Appearance() is a method of the point collection (StreamPoint), which allows you
 
 The StreamPoint collection of points (map.Geometric.Points) provides the event: OnClick
 
-
+[more about events](https://github.com/ichim/MapsForBlazor-nuget/tree/main/StreamPoint%20Collection/Identify%20on%20click)
 
 
