@@ -9,3 +9,4 @@ To use ArcGIS:
 To use Leaflet:
 
     @using static MapsForBlazor.techs.maps.Leaflet
+
