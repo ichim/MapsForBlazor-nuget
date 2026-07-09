@@ -10,4 +10,7 @@ The StreamPoint collection of points (map.Geometric.Points) provides the event: 
 
 where:
 
-
+    <Map @ref="map" />
+    @code {
+        Map? map;
+        }
