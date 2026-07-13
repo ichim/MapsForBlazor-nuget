@@ -31,6 +31,7 @@ The SetStyle() method allows the use of several predefined classes with which yo
 The classes that allow customizing the appearance of the point on the map are:
 
 - PointStyle
+- DynamicPointSVG
 - PieChart
 - GaugeChart
 - DiscreteGaugeChart
