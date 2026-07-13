@@ -27,3 +27,12 @@ Customizing the appearance displayed on the map is done using the following meth
 
 ## SetStyle() method
 
+The SetStyle() method allows the use of several predefined classes with which you can change the appearance of points on the map.
+The classes that allow customizing the appearance of the point on the map are:
+
+- PointStyle
+- PieChart
+- GaugeChart
+- DiscreteGaugeChart
+
+
