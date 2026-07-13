@@ -24,3 +24,6 @@ Customizing the appearance displayed on the map is done using the following meth
 - [SetStyle](https://github.com/ichim/MapsForBlazor-nuget/tree/main/StreamPoint%20Collection/Appearance/SetStyle) - the appearance of the point on the map
 - SetLabel - a text can be associated
 - SetPopup - a popup can be associated
+
+## SetStyle() method
+
