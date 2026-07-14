@@ -1,2 +1,2 @@
-# Gauge Charts
+# Gauge Chart
 
