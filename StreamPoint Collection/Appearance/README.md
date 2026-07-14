@@ -24,3 +24,16 @@ Customizing the appearance displayed on the map is done using the following meth
 - [SetStyle](https://github.com/ichim/MapsForBlazor-nuget/tree/main/StreamPoint%20Collection/Appearance/SetStyle) - the appearance of the point on the map
 - SetLabel - a text can be associated
 - SetPopup - a popup can be associated
+
+## SetStyle() method
+
+The SetStyle() method allows the use of several predefined classes with which you can change the appearance of points on the map.
+The classes that allow customizing the appearance of the point on the map are:
+
+- PointStyle
+- DynamicPointSVG
+- PieChart
+- GaugeChart
+- DiscreteGaugeChart
+
+
