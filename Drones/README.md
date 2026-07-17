@@ -13,7 +13,7 @@ WiFi:
 
            wifiIndicator = new WiFiIndicator()
            {
-               paramOrLevel = "${wifiLevel}",
+               paramOrLevel = "${wifiLevel}",                                 //0 to 3
                size = 10
            },
 
@@ -21,7 +21,7 @@ Battery:
 
             batteryIndicator = new BatteryIndicator()
             {
-                paramOrLevel = "${battery}"
+                paramOrLevel = "${battery}"                                 //0 to 10
             },
 
 Altimeter:
