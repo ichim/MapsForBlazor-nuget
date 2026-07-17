@@ -50,6 +50,45 @@ Altimeter:
 
 These are indicators hosted by the circular crown of the Gauge chart. An unlimited number of Crown Indicators can be configured.
 
+             public IEnumerable<SigmaDroneObject> crownIndicators { get; set; }
+
+1. SigmaDroneCrownScale
+
+        public class SigmaDroneCrownScale : SigmaDroneObject
+        {
+            public string label { get; set; }
+            public double valueStart { get; set; }
+            public double valueStop { get; set; }
+            public object paramOrValue { get; set; }
+        }
+
+1. SigmaDroneCrownDiscrete
+
+        public class SigmaDroneCrownDiscrete : SigmaDroneObject
+        {
+            public string label { get; set; }
+            public int[]? percentageValues { get; set; }
+            public string[]? colors { get; set; }
+            public string[]? labels { get; set; }
+            public object? paramOrIndex { get; set; }
+            public bool haloText { get; set; }
+        }
+
+1. SigmaDroneCrownPercent
+
+        public class SigmaDroneCrownPercent : SigmaDroneObject
+        {
+            public string label { get; set; }
+            public int valueStart { get; set; }
+            public int valueStop { get; set; }
+            public object? paramOrValue { get; set; }
+            public string backgroundColor { get; set; } = "white";
+            public string fillColor { get; set; } = "red";
+            public bool haloText { get; set; }
+            //public SigmaDroneCrownPercentStyle? styles { get; set; }
+        }
+
+
 ### SigmaDroneCrownDiscrete class
 |    | Image |
 |----|----|
