@@ -6,6 +6,8 @@ This chart allows you to add specific indicators, such as WiFi, Battery or Altim
 
 <img width="542" height="312" alt="image" src="https://github.com/user-attachments/assets/f2e3e876-f0e2-4bd5-886a-86a55533ab79" />
 
+## Indicators on the center panel
+
 WiFi:
 
 
@@ -29,3 +31,7 @@ Altimeter:
                 paramOrAltitude = "${altitude}",
                 maximumAltitude = 300,
             },
+
+## Crown indicators
+
+These are indicators hosted by the circular crown of the Gauge chart. An unlimited number of Crown Indicators can be configured.
