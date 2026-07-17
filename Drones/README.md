@@ -12,6 +12,9 @@ This chart allows you to add specific indicators, such as WiFi, Battery or Altim
 
 WiFi:
 
+|    | Image |
+|----|----|
+| WiFiIndicator | <img width="547" height="272" alt="image" src="https://github.com/user-attachments/assets/fd565bbe-1ec2-42a3-a364-976019e6ff9a" /> |
 
            wifiIndicator = new WiFiIndicator()
            {
@@ -21,12 +24,21 @@ WiFi:
 
 Battery:
 
+|    | Image |
+|----|----|
+| BatteryIndicator | <img width="549" height="272" alt="image" src="https://github.com/user-attachments/assets/de2878c7-ce53-40d3-aca0-57808848cc7a" /> |
+
+
             batteryIndicator = new BatteryIndicator()
             {
                 paramOrLevel = "${battery}"                                 //0 to 10
             },
 
 Altimeter:
+
+|    | Image |
+|----|----|
+| AltitudeIndicator | <img width="545" height="275" alt="image" src="https://github.com/user-attachments/assets/5af6cf3c-90db-4701-b91f-88b9e4dc485c" /> |
 
             altitudeIndicator = new AltitudeIndicator()
             {
