@@ -85,7 +85,6 @@ These are indicators hosted by the circular crown of the Gauge chart. An unlimit
             public string backgroundColor { get; set; } = "white";
             public string fillColor { get; set; } = "red";
             public bool haloText { get; set; }
-            //public SigmaDroneCrownPercentStyle? styles { get; set; }
         }
 
 
