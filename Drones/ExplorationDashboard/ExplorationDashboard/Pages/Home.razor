@@ -1,0 +1,163 @@
+﻿@page "/"
+@using Data.Input
+@using MapsForBlazor.techs.core.Appearance
+@using static MapsForBlazor.techs.maps.Leaflet
+<button onclick="@update">From the beginning</button>
+<button onclick="@stop">Stop</button>
+
+<Map @ref="map" loadParameters="@loadParameters" height="calc(100vh - 4rem)" width="calc(100vw - 2rem)" OnAfterMapLoaded="@OnAfterMapLoaded" />
+@code {
+    Map? map;
+    LoadParameters loadParameters = new LoadParameters()
+    {
+        location = new Location()
+        {
+            latitude = 45.2831589721668,   
+            longitude = 27.98740645063448
+        },
+        zoomLevel = 14,
+        mapControls = new MapControls()
+        {
+            layerList = new LayerList() { position = Position.topRight },
+            scaleBar = new ScaleBar()
+            {
+                position = Position.bottomRight,
+                unitOfScaleBar = UnitOfScaleBar.metric
+            },
+
+        }
+    };
+
+
+    private async Task OnAfterMapLoaded(MapEventArgs args)
+    {
+        var map = args.sender as Map;
+
+
+
+
+
+        await map.Geometric.Points.Appearance(e => e.type == "SigmaDrone").SetStyle(new SigmaDroneChart()
+        {
+            title = "titlu",
+            dimension = 60,
+            visibilityZoomLevels = new VisibilityZoomLevels() { minZoomLevel = 0, maxZoomLevel = 100 },
+            moreThan180DegreesWith = 15,
+            wifiIndicator = new WiFiIndicator()
+            {
+                paramOrLevel = 1
+            },
+            altitudeIndicator = new AltitudeIndicator()
+            {
+                paramOrAltitude = "${altitude}",
+                maximumAltitude = 300,
+            },
+            batteryIndicator = new BatteryIndicator()
+            {
+                paramOrLevel = 9
+            },
+            crownIndicators = new List<SigmaDroneObject>()
+         {
+               new SigmaDroneCrownDiscrete()
+             {
+                 label  = "Fuel",
+                 colors = new List<string>() { "red", "orange", "yellow", "green" }.ToArray(),
+                 percentageValues = new List<int>() { 33, 33, 33, 33 }.ToArray(),
+                 paramOrIndex = 1,
+                 labels = new List<string>() { "critical", "low", "range", "full" }.ToArray(),
+                 percentageOfTheEntireCrown = 68,
+                 backgroundColor = "lightgray",
+                 haloText = true,
+             },
+                new SigmaDroneCrownScale()
+            {
+                label = "x 1 km/h",
+                valueStart = 0,
+                valueStop = 100,
+                paramOrValue = "${speed}",
+                percentageOfTheEntireCrown = 32,
+                backgroundColor = "#f8f8ff"
+            },
+
+        }
+        });
+        await map.Geometric.Points.Add(new StreamPoints().positions);
+    }
+
+
+
+    List<DroneSimulator.DroneSimulator> simulators = new List<DroneSimulator.DroneSimulator>(); 
+    private async Task update()
+    {
+
+        if (map is null)
+            return;
+        var bounds = new DroneSimulator.Bounds(
+         latMin: 45.27125785161344,    // Sud
+         lonMin: 27.96145300608208,   // Vest
+         latMax: 45.296145140141526,      // Nord
+         lonMax: 28.00795154834795    // Est
+     );
+
+
+        IEnumerable<StreamPoint> points = new StreamPoints().positions.Where((p) => p.type == "SigmaDrone");
+        if (points.Count() != 0)
+        {
+            foreach (StreamPoint point in points)
+            {
+                var droneSimulator = new DroneSimulator.DroneSimulator(bounds, point.coordinates.xy[0], point.coordinates.xy[1], timeStep: (point.value as DroneTrak).timeSpent);
+
+                droneSimulator.OnDroneUpdate += async (sender, e) =>
+                 {
+                     var state = e.State.Clone();
+                     await map.Geometric.Points.Update(new List<StreamPoint>()
+                                                                           {
+                                                                                 new StreamPoint()
+                                                                                 {
+                                                                                     guid = point.guid,
+                                                                                     type = "SigmaDrone",
+                                                                                     timestamp = DateTime.Now,
+                                                                                     coordinates = new Coordinates()
+                                                                                     {
+                                                                                         xy = new double[2] { state.Position.Latitude, state.Position.Longitude }
+                                                                                     },
+                                                                                     value = new DroneTrak()
+                                                                                     {
+                                                                                         speed = state.Speed * 1000/(60*60),
+                                                                                         fuel = state.Fuel,
+                                                                                       altitude =Math.Abs( state.Altitude),
+
+                                                                                     }
+                                                                                 }
+                                                                             });
+                     {
+                         Console.WriteLine($"\n--- Update Drone ({DateTime.Now:HH:mm:ss}) ---");
+                         Console.WriteLine($"Poziție: Lat {state.Position.Latitude:F6}, Long {state.Position.Longitude:F6}");
+                         Console.WriteLine($"Viteză: {state.Speed:F1} m/s");
+                         Console.WriteLine($"Combustibil: {state.Fuel:F1}%");
+                         Console.WriteLine($"Direcție: {state.Direction:F0}°");
+                         Console.WriteLine($"Altitudine: {state.Altitude:F0}m");
+                         Console.WriteLine($"Activ: {(state.IsActive ? "DA" : "NU")}");
+
+                     };
+
+                 };
+                simulators.Add(droneSimulator);
+                droneSimulator.Start();
+                
+            }
+        }
+
+    }
+
+    private async Task stop()
+    {
+        foreach(DroneSimulator.DroneSimulator simulator in simulators)
+        {
+            simulator.Stop();
+        }
+    }
+
+
+}
+
