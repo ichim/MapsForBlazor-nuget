@@ -10,3 +10,5 @@ To use Leaflet:
 
     @using static MapsForBlazor.techs.maps.Leaflet
 
+
+<Map height="calc(100vh - 1rem)" width="calc(100vw - 2rem)"/>
