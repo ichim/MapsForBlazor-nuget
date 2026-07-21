@@ -35,5 +35,10 @@ The classes that allow customizing the appearance of the point on the map are:
 - PieChart
 - GaugeChart
 - DiscreteGaugeChart
+- QuarterGaugeFillChart and QuarterGaugeFillChartBase
+- QuarterGaugeScaleAndPercentChart and QuarterGaugeScaleAndPercentChartBase
+- QuartersCharts
+- SigmaDroneChart
+
 
 
