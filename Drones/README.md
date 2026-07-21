@@ -13,6 +13,16 @@ Chart configuration parameters can be either invariants or dynamic. Invariants a
 The parameters here are those that change over time and must be updated on the chart when the attributes of a StreamPoint are updated. 
 These parameters are denoted by ``paramOr...`` and can be configured with numeric, string or array values ​​or can be configured to retrieve data from the StreamPoint collection.
 
+Example of configuration by values:
+
+           paramOrLevel = 9,
+
+Example of configuration by parameter (StreamPoint attribute):
+
+           paramOrValur = "${batteryLevel}"
+
+Where ``batteryLevel`` is an attribute of a StreamPoint element in the StreamPoint collection.
+
 ## Indicators on the center panel
 
 WiFi:
