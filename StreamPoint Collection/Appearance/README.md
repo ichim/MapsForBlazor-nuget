@@ -19,6 +19,20 @@ For example:
         })
         .SetLabel(new Label() { text = "Park 4", title = "Label Layer List" });
 
+Chart configuration parameters can be either invariants or dynamic. Invariants are those related to the appearance or configuration of the chart content, e.g. color, height, fontSize etc.
+The parameters here are those that change over time and must be updated on the chart when the attributes of a StreamPoint are updated. 
+These parameters are denoted by ``paramOr...`` and can be configured with numeric, string or array values ​​or can be configured to retrieve data from the StreamPoint collection.
+
+Example of configuration by values:
+
+           paramOrValue = 9,
+
+Example of configuration by parameter (StreamPoint attribute):
+
+           paramOrValue = "${batteryLevel}"
+
+Where ``batteryLevel`` is an attribute of a StreamPoint element in the StreamPoint collection.
+
 Customizing the appearance displayed on the map is done using the following methods:
 
 - [SetStyle](https://github.com/ichim/MapsForBlazor-nuget/tree/main/StreamPoint%20Collection/Appearance/SetStyle) - the appearance of the point on the map
