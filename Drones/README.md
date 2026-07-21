@@ -9,6 +9,10 @@ This chart allows you to add specific indicators, such as WiFi, Battery or Altim
 | Usage example | <img width="542" height="312" alt="image" src="https://github.com/user-attachments/assets/f2e3e876-f0e2-4bd5-886a-86a55533ab79" /> |
 
 
+Chart configuration parameters can be either invariants or dynamic. Invariants are those related to the appearance or configuration of the chart content, e.g. color, height, fontSize etc.
+The parameters here are those that change over time and must be updated on the chart when the attributes of a StreamPoint are updated. 
+These parameters are denoted by ``paramOr...`` and can be configured with numeric, string or array values ​​or can be configured to retrieve data from the StreamPoint collection.
+
 ## Indicators on the center panel
 
 WiFi:
