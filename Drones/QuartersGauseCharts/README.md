@@ -6,6 +6,10 @@ These Gauge charts, hosted by a quarter circle, are configurable and can operate
 <img width="988" height="789" alt="image" src="https://github.com/user-attachments/assets/bf8c5450-f20d-42d2-9e1c-434ddd25997d" />
 
 
+For the image above, the configuration of the 3 charts is as follows:
+
+
+
                      await map.Geometric.Points.Appearance(e => e.type == "SigmaDrone").SetStyle(new QuartersCharts() {
                      title = "quarters", 
                      visibilityZoomLevels = new VisibilityZoomLevels() { minZoomLevel = 4,maxZoomLevel = 18 }, 
