@@ -15,11 +15,11 @@ These parameters are denoted by ``paramOr...`` and can be configured with numeri
 
 Example of configuration by values:
 
-           paramOrLevel = 9,
+           paramOrValue = 9,
 
 Example of configuration by parameter (StreamPoint attribute):
 
-           paramOrValur = "${batteryLevel}"
+           paramOrValue = "${batteryLevel}"
 
 Where ``batteryLevel`` is an attribute of a StreamPoint element in the StreamPoint collection.
 
