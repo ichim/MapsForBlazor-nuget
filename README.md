@@ -3,9 +3,14 @@
 
 **KEYWORDS**: Minimizing Invoke callers to JavaScript, `No JavaScript specific settings`, no script references, no css links. `One code`, one component `many technologies`.
 
+![NuGet Version](https://img.shields.io/nuget/v/MapsForBlazor) ![NuGet Downloads](https://img.shields.io/nuget/dt/MapsForBlazor)![GitHub stars](https://img.shields.io/github/stars/ichim/MapsForBlazor-nuget) ![GitHub last commit](https://img.shields.io/github/last-commit/ichim/MapsForBlazor-nuget)
+
+
+
 | New Examples | Sample Image |
 |----|----|
-| SigmaDrone [code examples](https://github.com/ichim/MapsForBlazor-nuget/tree/main/Drones) | ![SigmaDrone](https://raw.githubusercontent.com/ichim/MapsForBlazor-nuget/main/images/dashboard/SigmaDrone-more.gif) |
+| SigmaDrone [code examples](https://github.com/ichim/MapsForBlazor-nuget/tree/main/Drones) | ![SigmaDrone](https://raw.githubusercontent.com/ichim/MapsForBlazor-nuget/main/images/dashboard/SigmaDrone-more.gif) | 
+
 
 # Core Concepts
 
@@ -22,6 +27,8 @@ You can display the map in the blazor page using one of the provided technologie
    - minimizing the number of calls to JavaScript;
    - collection searches by destructuring and structuring LINQ expressions
 
+[More information](https://ichim.github.io/MapsForBlazor/)
+ 
 # Quick Start
 
 ## Basic configuration
@@ -378,6 +385,5 @@ The SetLabel() method provides the ability to add text to the map. The text will
 
 |ᶜ⁴ˡᵘ⁷ᵘ⁵ᵘᶠˡᵉ⁷⁸ᵘⁿ|
 |----|
-| ![Hits](https://hits.sh/github.com/ichim/MapsForBlazor-nuget.svg) |
 
-Laurentiu Ichim, Bucharest 
+Laurentiu Ichim, Bucharest
