@@ -391,7 +391,9 @@ The SetLabel() method provides the ability to add text to the map. The text will
 
 
 
-|ᶜ⁴ˡᵘ⁷ᵘ⁵ᵘᶠˡᵉ⁷⁸ᵘⁿ|
+| ᶜ⁴ˡᵘ⁷ᵘ⁵ᵘᶠˡᵉ⁷⁸ᵘⁿ |
 |----|
+| ![Hits](https://hits.sh/github.com/ichim/MapsForBlazor-nuget.svg) |
 
 Laurentiu Ichim, Bucharest
+
