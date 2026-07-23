@@ -3,9 +3,14 @@
 
 **KEYWORDS**: Minimizing Invoke callers to JavaScript, `No JavaScript specific settings`, no script references, no css links. `One code`, one component `many technologies`.
 
+![NuGet Version](https://img.shields.io/nuget/v/MapsForBlazor?cacheSeconds=3600) ![NuGet Downloads](https://img.shields.io/nuget/dt/MapsForBlazor?cacheSeconds=3600)![GitHub stars](https://img.shields.io/github/stars/ichim/MapsForBlazor-nuget?cacheSeconds=3600) ![GitHub last commit](https://img.shields.io/github/last-commit/ichim/MapsForBlazor-nuget?cacheSeconds=3600)[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/ichim/MapsForBlazor-nuget/blob/main/LICENSE?cacheSeconds=3600)
+
+
+
 | New Examples | Sample Image |
 |----|----|
-| SigmaDrone [code examples](https://github.com/ichim/MapsForBlazor-nuget/tree/main/Drones) | ![SigmaDrone](https://raw.githubusercontent.com/ichim/MapsForBlazor-nuget/main/images/dashboard/SigmaDrone-more.gif) |
+| SigmaDrone [code examples](https://github.com/ichim/MapsForBlazor-nuget/tree/main/Drones) | ![SigmaDrone](https://raw.githubusercontent.com/ichim/MapsForBlazor-nuget/main/images/dashboard/SigmaDrone-more.gif) | 
+
 
 # Core Concepts
 
@@ -22,6 +27,8 @@ You can display the map in the blazor page using one of the provided technologie
    - minimizing the number of calls to JavaScript;
    - collection searches by destructuring and structuring LINQ expressions
 
+[More information](https://ichim.github.io/MapsForBlazor/)
+ 
 # Quick Start
 
 ## Basic configuration
@@ -319,6 +326,14 @@ Changing the appearance (Style) of the point on the map can be done using the fo
             public string fillingColor { get; set; } = "red";
             public bool haloText { get; set; } = false;
         }
+
+- **SigmaDroneChart** -> is a class with which you can use SigmaDrone charts to display the point on the map. The SigmaDroneChart class defines a set of SigmaDrone chart elements that are scalable with the zoom level and are only displayed in the current view.
+
+[more about SigmaDroneChart](https://github.com/ichim/MapsForBlazor-nuget/tree/main/Drones)
+
+ - **QuartersCharts** -> is a class with which you can use Quarters charts to display the point on the map. The QuartersCharts class defines a set of Quarters chart elements that are scalable with the zoom level and are only displayed in the current view.
+
+ [more about QuartersCharts](https://github.com/ichim/MapsForBlazor-nuget/tree/main/Drones)
  
 ❗ Limitations of DynamicPointSVG, PieChart, GaugeChart and QuarterGaugeFillChart:
  When using `@using static MapsForBlazor.techs.maps.Leaflet` it will not be displayed in Layers List control.
@@ -376,7 +391,9 @@ The SetLabel() method provides the ability to add text to the map. The text will
 
 
 
-|ᶜ⁴ˡᵘ⁷ᵘ⁵ᵘᶠˡᵉ⁷⁸ᵘⁿ|
+| ᶜ⁴ˡᵘ⁷ᵘ⁵ᵘᶠˡᵉ⁷⁸ᵘⁿ |
 |----|
+| ![Hits](https://hits.sh/github.com/ichim/MapsForBlazor-nuget.svg) |
 
 Laurentiu Ichim, Bucharest
+
