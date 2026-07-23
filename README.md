@@ -3,7 +3,7 @@
 
 **KEYWORDS**: Minimizing Invoke callers to JavaScript, `No JavaScript specific settings`, no script references, no css links. `One code`, one component `many technologies`.
 
-![NuGet Version](https://img.shields.io/nuget/v/MapsForBlazor) ![NuGet Downloads](https://img.shields.io/nuget/dt/MapsForBlazor)![GitHub stars](https://img.shields.io/github/stars/ichim/MapsForBlazor-nuget) ![GitHub last commit](https://img.shields.io/github/last-commit/ichim/MapsForBlazor-nuget)[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/ichim/MapsForBlazor-nuget/blob/main/LICENSE)
+![NuGet Version](https://img.shields.io/nuget/v/MapsForBlazor?cacheSeconds=3600) ![NuGet Downloads](https://img.shields.io/nuget/dt/MapsForBlazor?cacheSeconds=3600)![GitHub stars](https://img.shields.io/github/stars/ichim/MapsForBlazor-nuget?cacheSeconds=3600) ![GitHub last commit](https://img.shields.io/github/last-commit/ichim/MapsForBlazor-nuget?cacheSeconds=3600)[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/ichim/MapsForBlazor-nuget/blob/main/LICENSE?cacheSeconds=3600)
 
 
 
