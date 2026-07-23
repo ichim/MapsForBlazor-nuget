@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\40720\\source\\repos\\QuartersCharts\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE1A603-9D5C-469C-A4D0-0FBD3E9D4364}|QuartersCharts\\QuartersCharts.csproj|c:\\users\\40720\\source\\repos\\quarterscharts\\quarterscharts\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAE1A603-9D5C-469C-A4D0-0FBD3E9D4364}|QuartersCharts\\QuartersCharts.csproj|solutionrelative:quarterscharts\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE1A603-9D5C-469C-A4D0-0FBD3E9D4364}|QuartersCharts\\QuartersCharts.csproj|c:\\users\\40720\\source\\repos\\quarterscharts\\quarterscharts\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AAE1A603-9D5C-469C-A4D0-0FBD3E9D4364}|QuartersCharts\\QuartersCharts.csproj|solutionrelative:quarterscharts\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\QuartersCharts\\QuartersCharts\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "QuartersCharts\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\40720\\source\\repos\\QuartersCharts\\QuartersCharts\\Pages\\Home.razor",
+              "RelativeToolTip": "QuartersCharts\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T18:19:41.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\QuartersCharts\\QuartersCharts\\_Imports.razor",
+              "RelativeDocumentMoniker": "QuartersCharts\\_Imports.razor",
+              "ToolTip": "C:\\Users\\40720\\source\\repos\\QuartersCharts\\QuartersCharts\\_Imports.razor",
+              "RelativeToolTip": "QuartersCharts\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-23T18:19:10.688Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
