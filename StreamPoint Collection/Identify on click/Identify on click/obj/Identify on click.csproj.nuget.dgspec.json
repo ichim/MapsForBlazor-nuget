@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\40720\\source\\repos\\Identify on click\\Identify on click\\Identify on click.csproj": {}
+    "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Identify on click\\Identify on click\\Identify on click.csproj": {}
   },
   "projects": {
-    "C:\\Users\\40720\\source\\repos\\Identify on click\\Identify on click\\Identify on click.csproj": {
+    "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Identify on click\\Identify on click\\Identify on click.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40720\\source\\repos\\Identify on click\\Identify on click\\Identify on click.csproj",
+        "projectUniqueName": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Identify on click\\Identify on click\\Identify on click.csproj",
         "projectName": "Identify on click",
-        "projectPath": "C:\\Users\\40720\\source\\repos\\Identify on click\\Identify on click\\Identify on click.csproj",
+        "projectPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Identify on click\\Identify on click\\Identify on click.csproj",
         "packagesPath": "C:\\Users\\40720\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40720\\source\\repos\\Identify on click\\Identify on click\\obj\\",
+        "outputPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Identify on click\\Identify on click\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,7 +53,7 @@
           "dependencies": {
             "MapsForBlazor": {
               "target": "Package",
-              "version": "[1.0.0.2, )"
+              "version": "[2.0.0.2, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",

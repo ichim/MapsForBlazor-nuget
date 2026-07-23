@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\40720\\source\\repos\\Identify on click\\",
+  "WorkspaceRootPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Identify on click\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C4ECD267-3DC1-41B9-861F-2D522CC57335}|Identify on click\\Identify on click.csproj|c:\\users\\40720\\source\\repos\\identify on click\\identify on click\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C4ECD267-3DC1-41B9-861F-2D522CC57335}|Identify on click\\Identify on click.csproj|d:\\instruitre\\nugets\\github\\mapsforblazor\\repo\\mapsforblazor-nuget\\streampoint collection\\identify on click\\identify on click\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C4ECD267-3DC1-41B9-861F-2D522CC57335}|Identify on click\\Identify on click.csproj|solutionrelative:identify on click\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4ECD267-3DC1-41B9-861F-2D522CC57335}|Identify on click\\Identify on click.csproj|c:\\users\\40720\\source\\repos\\identify on click\\identify on click\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C4ECD267-3DC1-41B9-861F-2D522CC57335}|Identify on click\\Identify on click.csproj|d:\\instruitre\\nugets\\github\\mapsforblazor\\repo\\mapsforblazor-nuget\\streampoint collection\\identify on click\\identify on click\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C4ECD267-3DC1-41B9-861F-2D522CC57335}|Identify on click\\Identify on click.csproj|solutionrelative:identify on click\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\Identify on click\\Identify on click\\Pages\\Home.razor",
+              "DocumentMoniker": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Identify on click\\Identify on click\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "Identify on click\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\40720\\source\\repos\\Identify on click\\Identify on click\\Pages\\Home.razor",
+              "ToolTip": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Identify on click\\Identify on click\\Pages\\Home.razor",
               "RelativeToolTip": "Identify on click\\Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -37,14 +37,13 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\Identify on click\\Identify on click\\_Imports.razor",
+              "DocumentMoniker": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Identify on click\\Identify on click\\_Imports.razor",
               "RelativeDocumentMoniker": "Identify on click\\_Imports.razor",
-              "ToolTip": "C:\\Users\\40720\\source\\repos\\Identify on click\\Identify on click\\_Imports.razor",
+              "ToolTip": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Identify on click\\Identify on click\\_Imports.razor",
               "RelativeToolTip": "Identify on click\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-04T18:57:53.178Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-04T18:57:53.178Z"
             }
           ]
         }

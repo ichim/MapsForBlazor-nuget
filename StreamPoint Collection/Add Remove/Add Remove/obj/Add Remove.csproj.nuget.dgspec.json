@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\40720\\source\\repos\\Add Remove\\Add Remove\\Add Remove.csproj": {}
+    "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Add Remove\\Add Remove\\Add Remove.csproj": {}
   },
   "projects": {
-    "C:\\Users\\40720\\source\\repos\\Add Remove\\Add Remove\\Add Remove.csproj": {
+    "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Add Remove\\Add Remove\\Add Remove.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40720\\source\\repos\\Add Remove\\Add Remove\\Add Remove.csproj",
+        "projectUniqueName": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Add Remove\\Add Remove\\Add Remove.csproj",
         "projectName": "Add Remove",
-        "projectPath": "C:\\Users\\40720\\source\\repos\\Add Remove\\Add Remove\\Add Remove.csproj",
+        "projectPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Add Remove\\Add Remove\\Add Remove.csproj",
         "packagesPath": "C:\\Users\\40720\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40720\\source\\repos\\Add Remove\\Add Remove\\obj\\",
+        "outputPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Add Remove\\Add Remove\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,7 +53,7 @@
           "dependencies": {
             "MapsForBlazor": {
               "target": "Package",
-              "version": "[1.0.0.2, )"
+              "version": "[2.0.0.2, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
