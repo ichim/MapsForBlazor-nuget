@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\40720\\source\\repos\\PieChart\\",
+  "WorkspaceRootPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Appearance\\PieChart\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49284052-F7B5-4A77-92A1-EC6AB28E5017}|PieChart\\PieChart.csproj|c:\\users\\40720\\source\\repos\\piechart\\piechart\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{49284052-F7B5-4A77-92A1-EC6AB28E5017}|PieChart\\PieChart.csproj|d:\\instruitre\\nugets\\github\\mapsforblazor\\repo\\mapsforblazor-nuget\\streampoint collection\\appearance\\piechart\\piechart\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{49284052-F7B5-4A77-92A1-EC6AB28E5017}|PieChart\\PieChart.csproj|solutionrelative:piechart\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49284052-F7B5-4A77-92A1-EC6AB28E5017}|PieChart\\PieChart.csproj|c:\\users\\40720\\source\\repos\\piechart\\piechart\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{49284052-F7B5-4A77-92A1-EC6AB28E5017}|PieChart\\PieChart.csproj|d:\\instruitre\\nugets\\github\\mapsforblazor\\repo\\mapsforblazor-nuget\\streampoint collection\\appearance\\piechart\\piechart\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{49284052-F7B5-4A77-92A1-EC6AB28E5017}|PieChart\\PieChart.csproj|solutionrelative:piechart\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49284052-F7B5-4A77-92A1-EC6AB28E5017}|PieChart\\PieChart.csproj|c:\\users\\40720\\source\\repos\\piechart\\piechart\\input\\streampoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49284052-F7B5-4A77-92A1-EC6AB28E5017}|PieChart\\PieChart.csproj|d:\\instruitre\\nugets\\github\\mapsforblazor\\repo\\mapsforblazor-nuget\\streampoint collection\\appearance\\piechart\\piechart\\input\\streampoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49284052-F7B5-4A77-92A1-EC6AB28E5017}|PieChart\\PieChart.csproj|solutionrelative:piechart\\input\\streampoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,22 +28,21 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\PieChart\\PieChart\\_Imports.razor",
+              "DocumentMoniker": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Appearance\\PieChart\\PieChart\\_Imports.razor",
               "RelativeDocumentMoniker": "PieChart\\_Imports.razor",
-              "ToolTip": "C:\\Users\\40720\\source\\repos\\PieChart\\PieChart\\_Imports.razor",
+              "ToolTip": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Appearance\\PieChart\\PieChart\\_Imports.razor",
               "RelativeToolTip": "PieChart\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-07-08T11:59:26.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T11:59:26.094Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\PieChart\\PieChart\\Pages\\Home.razor",
+              "DocumentMoniker": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Appearance\\PieChart\\PieChart\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "PieChart\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\40720\\source\\repos\\PieChart\\PieChart\\Pages\\Home.razor",
+              "ToolTip": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Appearance\\PieChart\\PieChart\\Pages\\Home.razor",
               "RelativeToolTip": "PieChart\\Pages\\Home.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -54,14 +53,13 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "StreamPoints.cs",
-              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\PieChart\\PieChart\\input\\StreamPoints.cs",
+              "DocumentMoniker": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Appearance\\PieChart\\PieChart\\input\\StreamPoints.cs",
               "RelativeDocumentMoniker": "PieChart\\input\\StreamPoints.cs",
-              "ToolTip": "C:\\Users\\40720\\source\\repos\\PieChart\\PieChart\\input\\StreamPoints.cs",
+              "ToolTip": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Appearance\\PieChart\\PieChart\\input\\StreamPoints.cs",
               "RelativeToolTip": "PieChart\\input\\StreamPoints.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-08T11:58:27.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-07-08T11:58:27.681Z"
             }
           ]
         }

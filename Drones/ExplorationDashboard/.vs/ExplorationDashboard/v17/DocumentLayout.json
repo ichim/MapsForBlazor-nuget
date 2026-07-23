@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\40720\\source\\repos\\ExplorationDashboard\\",
+  "WorkspaceRootPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Drones\\ExplorationDashboard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDFEF2D9-454D-46DE-8950-336C31DC8F27}|ExplorationDashboard\\ExplorationDashboard.csproj|c:\\users\\40720\\source\\repos\\explorationdashboard\\explorationdashboard\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FDFEF2D9-454D-46DE-8950-336C31DC8F27}|ExplorationDashboard\\ExplorationDashboard.csproj|d:\\instruitre\\nugets\\github\\mapsforblazor\\repo\\mapsforblazor-nuget\\drones\\explorationdashboard\\explorationdashboard\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FDFEF2D9-454D-46DE-8950-336C31DC8F27}|ExplorationDashboard\\ExplorationDashboard.csproj|solutionrelative:explorationdashboard\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDFEF2D9-454D-46DE-8950-336C31DC8F27}|ExplorationDashboard\\ExplorationDashboard.csproj|c:\\users\\40720\\source\\repos\\explorationdashboard\\explorationdashboard\\input-data\\streampoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FDFEF2D9-454D-46DE-8950-336C31DC8F27}|ExplorationDashboard\\ExplorationDashboard.csproj|d:\\instruitre\\nugets\\github\\mapsforblazor\\repo\\mapsforblazor-nuget\\drones\\explorationdashboard\\explorationdashboard\\input-data\\streampoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDFEF2D9-454D-46DE-8950-336C31DC8F27}|ExplorationDashboard\\ExplorationDashboard.csproj|solutionrelative:explorationdashboard\\input-data\\streampoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDFEF2D9-454D-46DE-8950-336C31DC8F27}|ExplorationDashboard\\ExplorationDashboard.csproj|c:\\users\\40720\\source\\repos\\explorationdashboard\\explorationdashboard\\input-data\\simulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FDFEF2D9-454D-46DE-8950-336C31DC8F27}|ExplorationDashboard\\ExplorationDashboard.csproj|d:\\instruitre\\nugets\\github\\mapsforblazor\\repo\\mapsforblazor-nuget\\drones\\explorationdashboard\\explorationdashboard\\input-data\\simulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDFEF2D9-454D-46DE-8950-336C31DC8F27}|ExplorationDashboard\\ExplorationDashboard.csproj|solutionrelative:explorationdashboard\\input-data\\simulator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDFEF2D9-454D-46DE-8950-336C31DC8F27}|ExplorationDashboard\\ExplorationDashboard.csproj|c:\\users\\40720\\source\\repos\\explorationdashboard\\explorationdashboard\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{FDFEF2D9-454D-46DE-8950-336C31DC8F27}|ExplorationDashboard\\ExplorationDashboard.csproj|d:\\instruitre\\nugets\\github\\mapsforblazor\\repo\\mapsforblazor-nuget\\drones\\explorationdashboard\\explorationdashboard\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FDFEF2D9-454D-46DE-8950-336C31DC8F27}|ExplorationDashboard\\ExplorationDashboard.csproj|solutionrelative:explorationdashboard\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "StreamPoints.cs",
-              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\ExplorationDashboard\\ExplorationDashboard\\input-data\\StreamPoints.cs",
+              "DocumentMoniker": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Drones\\ExplorationDashboard\\ExplorationDashboard\\input-data\\StreamPoints.cs",
               "RelativeDocumentMoniker": "ExplorationDashboard\\input-data\\StreamPoints.cs",
-              "ToolTip": "C:\\Users\\40720\\source\\repos\\ExplorationDashboard\\ExplorationDashboard\\input-data\\StreamPoints.cs",
+              "ToolTip": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Drones\\ExplorationDashboard\\ExplorationDashboard\\input-data\\StreamPoints.cs",
               "RelativeToolTip": "ExplorationDashboard\\input-data\\StreamPoints.cs",
               "ViewState": "AgIAALYBAAAAAAAAAAAIwMkBAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -45,11 +45,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "simulator.cs",
-              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\ExplorationDashboard\\ExplorationDashboard\\input-data\\simulator.cs",
+              "DocumentMoniker": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Drones\\ExplorationDashboard\\ExplorationDashboard\\input-data\\simulator.cs",
               "RelativeDocumentMoniker": "ExplorationDashboard\\input-data\\simulator.cs",
-              "ToolTip": "C:\\Users\\40720\\source\\repos\\ExplorationDashboard\\ExplorationDashboard\\input-data\\simulator.cs",
+              "ToolTip": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Drones\\ExplorationDashboard\\ExplorationDashboard\\input-data\\simulator.cs",
               "RelativeToolTip": "ExplorationDashboard\\input-data\\simulator.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAywC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAADwvy8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-17T05:23:57.766Z",
               "EditorCaption": ""
@@ -58,9 +58,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "_Imports.razor",
-              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\ExplorationDashboard\\ExplorationDashboard\\_Imports.razor",
+              "DocumentMoniker": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Drones\\ExplorationDashboard\\ExplorationDashboard\\_Imports.razor",
               "RelativeDocumentMoniker": "ExplorationDashboard\\_Imports.razor",
-              "ToolTip": "C:\\Users\\40720\\source\\repos\\ExplorationDashboard\\ExplorationDashboard\\_Imports.razor",
+              "ToolTip": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Drones\\ExplorationDashboard\\ExplorationDashboard\\_Imports.razor",
               "RelativeToolTip": "ExplorationDashboard\\_Imports.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -71,9 +71,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Home.razor",
-              "DocumentMoniker": "C:\\Users\\40720\\source\\repos\\ExplorationDashboard\\ExplorationDashboard\\Pages\\Home.razor",
+              "DocumentMoniker": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Drones\\ExplorationDashboard\\ExplorationDashboard\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "ExplorationDashboard\\Pages\\Home.razor",
-              "ToolTip": "C:\\Users\\40720\\source\\repos\\ExplorationDashboard\\ExplorationDashboard\\Pages\\Home.razor",
+              "ToolTip": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Drones\\ExplorationDashboard\\ExplorationDashboard\\Pages\\Home.razor",
               "RelativeToolTip": "ExplorationDashboard\\Pages\\Home.razor",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAEIAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

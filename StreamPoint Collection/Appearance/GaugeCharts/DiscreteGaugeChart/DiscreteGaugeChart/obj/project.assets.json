@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "MapsForBlazor/1.2.4": {
+      "MapsForBlazor/2.0.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "9.0.11",
@@ -513,7 +513,7 @@
       }
     },
     "net9.0/browser-wasm": {
-      "MapsForBlazor/1.2.4": {
+      "MapsForBlazor/2.0.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNetCore.Components.Web": "9.0.11",
@@ -1025,10 +1025,10 @@
     }
   },
   "libraries": {
-    "MapsForBlazor/1.2.4": {
-      "sha512": "78MxutJbTztBzpnhjYc4x5r5o2JXf4vDbwAtGgUVEe6RxN0IcmwPvBs2y/BJVsP0yslS7a+ZRzNNe3XgTJCRhA==",
+    "MapsForBlazor/2.0.0.2": {
+      "sha512": "1sp74F4Otsay4Q+w92FFR/NrFC2xpAnN0JOQSdGB0JT/UqIK9a8JzqCYBqThy4Ogv3BI+lCw50EplcgcnAUkKQ==",
       "type": "package",
-      "path": "mapsforblazor/1.2.4",
+      "path": "mapsforblazor/2.0.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1041,7 +1041,7 @@
         "buildMultiTargeting/MapsForBlazor.props",
         "buildTransitive/MapsForBlazor.props",
         "lib/net9.0/MapsForBlazor.dll",
-        "mapsforblazor.1.2.4.nupkg.sha512",
+        "mapsforblazor.2.0.0.2.nupkg.sha512",
         "mapsforblazor.nuspec",
         "staticwebassets/Geometry/ArcGIS/points.js",
         "staticwebassets/Geometry/ArcGIS/svg.js",
@@ -2032,7 +2032,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "MapsForBlazor >= 1.2.4",
+      "MapsForBlazor >= 2.0.0.2",
       "Microsoft.AspNetCore.Components.WebAssembly >= 9.0.11",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 9.0.11",
       "Microsoft.NET.ILLink.Tasks >= 9.0.11",
@@ -2046,11 +2046,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\40720\\source\\repos\\DiscreteGaugeChart\\DiscreteGaugeChart\\DiscreteGaugeChart.csproj",
+      "projectUniqueName": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Appearance\\GaugeCharts\\DiscreteGaugeChart\\DiscreteGaugeChart\\DiscreteGaugeChart.csproj",
       "projectName": "DiscreteGaugeChart",
-      "projectPath": "C:\\Users\\40720\\source\\repos\\DiscreteGaugeChart\\DiscreteGaugeChart\\DiscreteGaugeChart.csproj",
+      "projectPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Appearance\\GaugeCharts\\DiscreteGaugeChart\\DiscreteGaugeChart\\DiscreteGaugeChart.csproj",
       "packagesPath": "C:\\Users\\40720\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\40720\\source\\repos\\DiscreteGaugeChart\\DiscreteGaugeChart\\obj\\",
+      "outputPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Appearance\\GaugeCharts\\DiscreteGaugeChart\\DiscreteGaugeChart\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2092,7 +2092,7 @@
         "dependencies": {
           "MapsForBlazor": {
             "target": "Package",
-            "version": "[1.2.4, )"
+            "version": "[2.0.0.2, )"
           },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\40720\\source\\repos\\ExplorationDashboard\\ExplorationDashboard\\ExplorationDashboard.csproj": {}
+    "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Drones\\ExplorationDashboard\\ExplorationDashboard\\ExplorationDashboard.csproj": {}
   },
   "projects": {
-    "C:\\Users\\40720\\source\\repos\\ExplorationDashboard\\ExplorationDashboard\\ExplorationDashboard.csproj": {
+    "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Drones\\ExplorationDashboard\\ExplorationDashboard\\ExplorationDashboard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40720\\source\\repos\\ExplorationDashboard\\ExplorationDashboard\\ExplorationDashboard.csproj",
+        "projectUniqueName": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Drones\\ExplorationDashboard\\ExplorationDashboard\\ExplorationDashboard.csproj",
         "projectName": "ExplorationDashboard",
-        "projectPath": "C:\\Users\\40720\\source\\repos\\ExplorationDashboard\\ExplorationDashboard\\ExplorationDashboard.csproj",
+        "projectPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Drones\\ExplorationDashboard\\ExplorationDashboard\\ExplorationDashboard.csproj",
         "packagesPath": "C:\\Users\\40720\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40720\\source\\repos\\ExplorationDashboard\\ExplorationDashboard\\obj\\",
+        "outputPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\Drones\\ExplorationDashboard\\ExplorationDashboard\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,7 +53,7 @@
           "dependencies": {
             "MapsForBlazor": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.0.0.2, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",

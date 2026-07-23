@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\40720\\source\\repos\\DiscreteGaugeChart\\DiscreteGaugeChart\\DiscreteGaugeChart.csproj": {}
+    "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Appearance\\GaugeCharts\\DiscreteGaugeChart\\DiscreteGaugeChart\\DiscreteGaugeChart.csproj": {}
   },
   "projects": {
-    "C:\\Users\\40720\\source\\repos\\DiscreteGaugeChart\\DiscreteGaugeChart\\DiscreteGaugeChart.csproj": {
+    "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Appearance\\GaugeCharts\\DiscreteGaugeChart\\DiscreteGaugeChart\\DiscreteGaugeChart.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40720\\source\\repos\\DiscreteGaugeChart\\DiscreteGaugeChart\\DiscreteGaugeChart.csproj",
+        "projectUniqueName": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Appearance\\GaugeCharts\\DiscreteGaugeChart\\DiscreteGaugeChart\\DiscreteGaugeChart.csproj",
         "projectName": "DiscreteGaugeChart",
-        "projectPath": "C:\\Users\\40720\\source\\repos\\DiscreteGaugeChart\\DiscreteGaugeChart\\DiscreteGaugeChart.csproj",
+        "projectPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Appearance\\GaugeCharts\\DiscreteGaugeChart\\DiscreteGaugeChart\\DiscreteGaugeChart.csproj",
         "packagesPath": "C:\\Users\\40720\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40720\\source\\repos\\DiscreteGaugeChart\\DiscreteGaugeChart\\obj\\",
+        "outputPath": "D:\\instruitre\\nugets\\github\\MapsForBlazor\\repo\\MapsForBlazor-nuget\\StreamPoint Collection\\Appearance\\GaugeCharts\\DiscreteGaugeChart\\DiscreteGaugeChart\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,7 +53,7 @@
           "dependencies": {
             "MapsForBlazor": {
               "target": "Package",
-              "version": "[1.2.4, )"
+              "version": "[2.0.0.2, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
