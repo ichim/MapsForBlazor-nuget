@@ -3,7 +3,7 @@
 
 **KEYWORDS**: Minimizing Invoke callers to JavaScript, `No JavaScript specific settings`, no script references, no css links. `One code`, one component `many technologies`.
 
-![NuGet Version](https://img.shields.io/nuget/v/MapsForBlazor) ![NuGet Downloads](https://img.shields.io/nuget/dt/MapsForBlazor)![GitHub stars](https://img.shields.io/github/stars/ichim/MapsForBlazor-nuget) ![GitHub last commit](https://img.shields.io/github/last-commit/ichim/MapsForBlazor-nuget)
+![NuGet Version](https://img.shields.io/nuget/v/MapsForBlazor) ![NuGet Downloads](https://img.shields.io/nuget/dt/MapsForBlazor)![GitHub stars](https://img.shields.io/github/stars/ichim/MapsForBlazor-nuget) ![GitHub last commit](https://img.shields.io/github/last-commit/ichim/MapsForBlazor-nuget)[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](https://github.com/ichim/MapsForBlazor-nuget/blob/main/LICENSE)
 
 
 
@@ -326,6 +326,14 @@ Changing the appearance (Style) of the point on the map can be done using the fo
             public string fillingColor { get; set; } = "red";
             public bool haloText { get; set; } = false;
         }
+
+- **SigmaDroneChart** -> is a class with which you can use SigmaDrone charts to display the point on the map. The SigmaDroneChart class defines a set of SigmaDrone chart elements that are scalable with the zoom level and are only displayed in the current view.
+
+[more about SigmaDroneChart](https://github.com/ichim/MapsForBlazor-nuget/tree/main/Drones)
+
+ - **QuartersCharts** -> is a class with which you can use Quarters charts to display the point on the map. The QuartersCharts class defines a set of Quarters chart elements that are scalable with the zoom level and are only displayed in the current view.
+
+ [more about QuartersCharts](https://github.com/ichim/MapsForBlazor-nuget/tree/main/Drones)
  
 ❗ Limitations of DynamicPointSVG, PieChart, GaugeChart and QuarterGaugeFillChart:
  When using `@using static MapsForBlazor.techs.maps.Leaflet` it will not be displayed in Layers List control.
